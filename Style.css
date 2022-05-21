@@ -100,3 +100,33 @@ a {
 footer {
     margin: 20px;
 }
+
+#campoinfo {
+    float: left;
+    margin-left: 600px;
+    padding: 100px;
+    text-align: center;
+    background:rgba(0, 0, 0, 0.47);
+    border-radius: 30px;
+    
+
+}
+
+#campocont {
+    width: 600px;
+    float: right;
+    margin-right: 600px;
+    padding: 40px;
+    background:rgba(0, 0, 0, 0.47);
+    border-radius: 30px;
+}
+
+#campototal {
+    border-top: 1px solid 
+}
+
+#topocontato {
+    font-style: italic;
+    font-size: 20px;
+    
+}
