@@ -112,12 +112,13 @@ footer {
 
 #campocont {
     width: 600px;
-    height: 500px;
+    height: 600px;
     float: right;
     margin-right: 600px;
-    padding: 40px;
+    padding: 25px;  
     background:rgba(0, 0, 0, 0.47);
     border-radius: 30px;
+    font-size: 20px;
 }
 
 #campototal {
@@ -183,4 +184,15 @@ footer {
         margin-top:-500px;
         margin: 100px;
         box-shadow: 5px 5px 5px 5px rgba(0, 0, 0)
+}
+
+#buttoncont {
+    font-size: 15px;
+    padding: 3px;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+#mensagemform {
+    font-size: 15px;
 }

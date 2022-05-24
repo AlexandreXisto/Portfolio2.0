@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Style.css"> <!-- Conexão CSS com HTML --> <br>
+    <script src="./script.js"></script>
     <meta name="Programador front-end em Ascendência" content="Currículo de Alexandre Xisto"> <!-- Conteudo que ira aparecer na pesquisa na web -->
     <link rel="icon" href="./Imagens/Alexicon.jpeg"/> <!-- Colocando um ícone na janela do site -->
 </head>
@@ -24,24 +25,27 @@
             <p>Frontend Developer</p>
             <p>Work from office 🏦 & home 🏠 - Santos / SP</p>
             <p>Cel.: (13) 99169-5513</p>
+            
             </h3>
             Email: <a href="mailto:cxalexandre@outlook.com" style="font-size: 20px;">cxalexandre@outlook.com</a></p> <!-- Para enviar um email diretamente a mim -->
 </div>
 
-    <div id="campocont" name="campocont">
-            <fieldset>
-                    <legend style="padding:50px; font-size:25px;">Contato</legend>
-                    <p><label style="text-align: center;" for=contato>Nome</label>
-                    <input autocomplete="name" type="text" size="25" name="Nome" form="contato" placeholder="Digite seu nome" required></p>
-                    <p><label for="">Email</label>
-                    <input type="email" size="25" name="Email" form="contato" placeholder="Ex.: empresa@empresa.com" required></p>
-                    <p><label for="">Mensagem</label></p>
-                    <textarea style="color: black; text-shadow: none;" name="Mensagem" id="Mensagem" cols="45" rows="10" form="contato" placeholder="Digite algo para mim! Prometo responder logo!"></textarea>
-                    <p><button type="submit" form="contato">Enviar</button>
-                    <button type="reset">Limpar</button>
-                    <input  type="button" value="Anexos"></p>
+            <fieldset id="campocont">
+                <legend style="font-size: 25px; text-align: center; padding: 10px;">Contato</legend>
+        <p>     <label>Nome</label>
+                <input style="font-size: 15px; text-shadow: none;" type="text" name="nomeform" id="nomeform" size="30" placeholder="Digite seu nome"></p>
+        <p>     <label>Email</label>
+                <input style="font-size: 15px; text-shadow: none;" type="email" size="25" name="Email" form="contato" placeholder="Ex.: empresa@empresa.com" required id="emailform"></p>
+        <p>     <label>Mensagem</label></p>
+                <textarea name="Mensagem" id="mensagemform" cols="60" rows="15" form="contato" placeholder="Digite algo para mim! Prometo responder logo! 😉"></textarea>
+                <p><div style="font-size: 15px;" id=res>
+
+
+                </div></p>
+        <p>     <input type="submit" onclick="enviar()" value="Enviar" id="buttoncont">
+                <input type="button" name="limpar" onclick="limpar()" value="Limpar" id="buttoncont">
+                <input type="file" value="Anexos" id="buttoncont"></p>
             </fieldset>
-    </div>
-</div>
+        </div>
 </body>
 </html>
