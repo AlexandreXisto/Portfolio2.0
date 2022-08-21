@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+        <title>Alexandre Xisto Desenvolvedor Front-end - Portfolio</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="Style.css"> <!-- Conexão CSS com HTML --> <br>
+        <script src="./script.js"></script>
+        <meta name="Programador front-end em Ascendência" content="Currículo de Alexandre Xisto">
+        <!-- Conteudo que ira aparecer na pesquisa na web -->
+        <link rel="icon" href="./Imagens/Alexicon.jpeg" /> <!-- Colocando um ícone na janela do site -->
+</head>
+<div id="topocontato">
+        💬 Contato /
+        <a href="./index.html">Voltar</a>
+</div>
+
+<body style="font-size: 20px;" background="./background/blacknew76.png">
+        <!-- Fundo da Página -->
+
+        <div id="campototal" name="campototal">
+                <div id="campoinfo" name="campoinfo">
+                        <h2>Vamos trabalhar juntos?</h2>
+                        <p>Alexandre Costa Xisto</p>
+                        <p>Frontend Developer</p>
+                        <p>Work from office 🏦 & home 🏠 - Santos / SP</p>
+                        <p>Cel.: (13) 99169-5513</p>
+
+                        </h3>
+                        Email: <a href="mailto:cxalexandre@outlook.com"
+                                style="font-size: 20px;">cxalexandre@outlook.com</a></p>
+                        <!-- Para enviar um email diretamente a mim -->
+                </div>
+
+                <fieldset id="campocont">
+                        <legend style="font-size: 25px; text-align: center; padding: 10px;">Contato</legend>
+                        <p> <label>Nome</label>
+                                <input style="font-size: 15px; text-shadow: none;" type="text" name="nomeform"
+                                        id="nomeform" size="30" placeholder="Digite seu nome">
+                        </p>
+                        <p> <label>Email</label>
+                                <input style="font-size: 15px; text-shadow: none;" type="email" size="25" name="Email"
+                                        form="contato" placeholder="Ex.: empresa@empresa.com" required id="emailform">
+                        </p>
+                        <p> <label>Mensagem</label></p>
+                        <textarea name="Mensagem" id="mensagemform" cols="60" rows="15" form="contato"
+                                placeholder="Digite algo para mim! Prometo responder logo! 😉"></textarea>
+                        <p>
+                        <div style="font-size: 15px;" id=res>
+
+
+                        </div>
+                        </p>
+                        <p> <input type="submit" onclick="enviar()" value="Enviar" id="buttoncont">
+                                <input type="button" name="limpar" onclick="limpar()" value="Limpar" id="buttoncont">
+                                <input type="file" value="Anexos" id="buttoncont">
+                        </p>
+                </fieldset>
+        </div>
+</body>
+
+</html>
