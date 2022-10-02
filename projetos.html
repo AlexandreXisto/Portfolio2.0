@@ -6,39 +6,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="Style.css"> <!-- Conexão CSS com HTML --> <br>
-    <script src="./script.js"></script>
+    <title>Projetos Alexandre Xisto</title>
     <meta name="Programador front-end em Ascendência" content="Currículo de Alexandre Xisto">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <!-- Conteudo que ira aparecer na pesquisa na web -->
     <link rel="icon" href="./Imagens/Alexicon.jpeg" /> <!-- Colocando um ícone na janela do site -->
 </head>
 
-<body background="./background/blacknew76.png">
+<body>
     <!-- Fundo da Página -->
-    <div id="topoprojeto">
-        🚀 Projetos /
-        <a href="./index.html">Voltar</a>
+    <ul class="nav nav-pills nav-fill" style="margin: 30px;">
+        <li class="nav-item">
+            <a class="nav-link" href="./Index.html">Sobre Mim</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="./projetos.html">Projetos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">Formação e Bootcamps</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./contato.html">Contato</a>
+        </li>
+    </ul>
+    <h3>Resumo dos Projetos que desenvolvi em 2022</h3>
+    <p style="text-align: center;">
+        < Passe para o lado para mais>
+            <div class="alert alert-dark" role="alert" style="text-align: center;">
+                Detalhes dos meus projetos, estão no Github, da uma olhadinha!
+            </div>
+    </p>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="./Imagens/projeto1.png" alt="">
+                <div class="legendaslide">
+                    <h5>Portfolio 2022</h5>
+                    <p>Projeto que desenvolvi como meu Portfolio atual em 2022 para todos os recrutadores e visitantes
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./Imagens/projeto2.png" alt="">
+                <h5>Portfolio WIX</h5>
+                <p>Site que desenvolvi pelo WIX, um modelo mais antigo do meu Portfolio</p>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./Imagens/projeto3.png" alt="">
+                <h5>Site Consulado Brasileiro</h5>
+                <p>Site que estou desenvolendo simulando o cadastro dentro do consulado Brasileiro</p>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
     </div>
-    <div id="projetogeral" name="projetogeral">
-        <p>
-            <legend>Portfolio 2022 - Portfolio que estou desenvolvendo para futuras apresentações aos meus recrutadores.
-                <p>Linguagens Utilizadas: HTML, CSS e Javascript</p>
-            </legend>
-            <img src="./Imagens/projeto1.jpg" id="projeto1">
-        </p>
-        <p>
-            <legend>Portfolio 2020 - Portfolio que desenvolvi por meio do site WiX.</legend>
-        <p>Link: <a href="https://cxalexandre.wixsite.com/curriculum">https://cxalexandre.wixsite.com/curriculum</a></p>
-        <p><img src="./Imagens/projeto2.jpg" id="projeto2"></p>
-        <p>
-            <legend>Site do Consulado - Site que estou desenvolvendo de cadastro para agendamento no consulado
-                Brasileiro.</legend>
-            <img src="./Imagens/projeto3.jpg" id="projeto3">
-        </p>
 
-        <footer>
-            &copy; Desenvolvido por Alexandre Xisto - 2022 Todos os direitos reservados.
-        </footer>
+
+    <footer>
+        &copy; Desenvolvido por Alexandre Xisto - 2022 Todos os direitos reservados.
+    </footer>
 
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

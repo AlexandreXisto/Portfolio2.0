@@ -1,69 +1,86 @@
-body {
-    font-family: Calibri, 'Trebuchet MS', sans-serif;
-    background-repeat: round;
-    color: white;
-    text-shadow: 3px 3px 3px black;
+* {
+    font-size: 20px;
+    margin: 3px;
+    background-color: rgba(240, 255, 255, 0.767);
+    
 }
-nav {
-    text-align: center;
-    color: white;
-    font-size: 30px;
+h2 {
     font-style: italic;
-    background:rgb(118, 118, 134);
-    padding-top: 30px;
-    border-bottom-right-radius: 50px;
-    margin-top: -30px;
-    width: 100%;
-    margin-left: -20px;
+    text-shadow: 1px 1px 3px rgba(39, 38, 38, 0.987);
+}
+
+h3 {
+    text-align: center;
+    margin: 10px;
+    text-shadow: 1px 1px 2px black;
+}
+
+#intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.img1 {
+    display: flex;
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    justify-content: center;
+}
+
+.img2 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.img3 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.img4 {
+    display: flex;
+   margin: auto;
+   justify-content: center;
 }
 
 #sobremim {
-    font-size: 23px;
     text-align: center;
-    margin: 15px;
-    background: rgba(7, 4, 15, 0.477);
-    border-radius: 50px;
-    padding: 20px 20px;
-    float: right;
+    background: rgba(74, 28, 200, 0.311);
+    border-radius: 10px;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    text-shadow: 1px 1px 2px rgb(30, 28, 28);
+    
 }
+
+.carousel-item {
+    width: 100%;
+    margin: auto;
+
+}
+
+.alert alert-dark {
+    width: 50%;
+    justify-content: center;
+    display: flex;
+}
+
 #conhecimentos {
-    width: 50%;
-    font-size:23px;
+    
     border-radius: 50px;
-    background: rgba(0, 0, 0, 0.47);
     padding: 20px 20px;
     margin: auto;
-}
-
-#conhecimentos2 {
-    font-size:23px;
-    width: 50%;
-    border-radius: 50px;
-    background: rgba(0, 0, 0, 0.477);
-    padding: 20px 20px;
-    margin: auto;
-}
-
-#img {
-    background: rgba(177, 174, 174, 0.865);
-    width: 500px;
-    border-radius: 50px;
-    float: right;
-    box-sizing: border-box;
-    margin-right: 500px;
-    margin-top: 150px;
-    
-    
-}
-
-h1 {
-    font-style: italic;
 }
 
 section {
-    margin: 150px;
     text-align: center;
-    font-size: 20px;
 }
 
 input {
@@ -71,16 +88,7 @@ input {
 }
 
 footer {
-    font-size: 20px;
     text-align: center;
-    font-style: italic;
-}
-
-blockquote {
-    font-style: italic;
-    font-size: 25px;
-    margin: 50px;
-    margin-right: 1000px;
 }
 
 #topo {
@@ -92,12 +100,13 @@ blockquote {
     height: 50px;
 }
 
-a {
-    text-decoration: none;
-    color: white;
+footer {
+    margin: 10px;
 }
 
-footer {
+.d-block w-50 {
+    width: 50%;
+    height: 200px;
     margin: 20px;
 }
 
@@ -118,7 +127,6 @@ footer {
     padding: 25px;  
     background:rgba(0, 0, 0, 0.47);
     border-radius: 30px;
-    font-size: 20px;
 }
 
 #campototal {
